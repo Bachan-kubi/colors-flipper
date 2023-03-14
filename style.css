@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: mediumseagreen;
+    padding: 15px;
+    background-color: rgb(221, 218, 214);
+    box-shadow: 10px 5px;
+}
+main{
+    min-height: calc(100vh-5rem);
+    display: grid;
+    place-items: center;
+    margin-top: 12rem;
+    gap: 2rem;
+}
+main h2{
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.color{
+    color: aqua;
+}
+.btn-hero{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: transparent;
+    transition: all 0.3s linear;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+}
+.btn-hero:hover{
+    color: aqua;
+    background: black;
+}
