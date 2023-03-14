@@ -1,5 +1,5 @@
 # colors-flipper
-A Vanilla JS Project
+## A Vanilla JS Project
 Firstly, an array of colors is defined, which contains several color codes in hexadecimal format.
 
 Then, two variables are declared, btn and color, which store references to HTML elements on the page. The btn variable stores the reference to a button element with an ID of "btn", and the color variable stores the reference to an HTML element with a class of "color".
